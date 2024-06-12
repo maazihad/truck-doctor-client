@@ -1,5 +1,11 @@
+import Services from '../../components/HomeCompo/Services/Services';
+
 const HomePage = () => {
-  return <div>Hello from home page</div>;
+  return (
+    <div>
+      <Services></Services>
+    </div>
+  );
 };
 
 export default HomePage;
